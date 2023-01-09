@@ -5,7 +5,7 @@ const cats = [
         "img_link": "https://img.freepik.com/free-photo/gray-kitty-with-monochrome-wall-behind-her_23-2148955126.jpg",
         "age": 8,
         "rate": 3,
-        "favourite": false,
+        "favourite": true,
         "description": "Марсик – британцы джентльмены, сиамы своенравны, а экзоты просто душки"
     },
     {

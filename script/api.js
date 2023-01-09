@@ -54,3 +54,5 @@ class Api {
 }
 
 const api = new Api(CONFIG_API);
+
+api.getAllCats()
