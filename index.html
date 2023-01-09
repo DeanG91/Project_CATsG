@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Котяра</title>
     <script src="https://kit.fontawesome.com/3e2b3d0dcf.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon.ico">
     <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body class="page">
@@ -13,9 +14,13 @@
     <header class="header">
       <div class="container header__container">
         <a href="#" class="logo">
-          <img src="/assets/images/logo1.png" alt="">
+          <img src="./assets/images/logo1.png" alt="">
           Породы кошек</a>
-        <button class="btn" id="add"><i class="fa-solid fa-plus"></i></button>
+        <button class="btn btn__left" id="add">
+          <i class="fa-solid fa-plus"></i></button>
+        <button class="btn btn__right" id="login">
+          <span>Войти</span>
+        </button>
       </div>
     </header>
 
@@ -35,9 +40,11 @@
         </div>
       </div>
     </footer>
-
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                            Добавить питомца                             -->
+    <!-- ----------------------------------------------------------------------- -->
     <div class="popup popup-add-cats"> 
-      <div class="popup__container">
+      <div class="popup__container popup__container-add">
         <button class="popup__close btn">
           <i class="fa-solid fa-xmark"></i>
         </button>
@@ -60,6 +67,22 @@
           <button class="form__btn btn">Добавить котика</button>
         </form>
       </div>
+    </div>
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                               Авторизация                               -->
+    <!-- ----------------------------------------------------------------------- -->
+    <div class="popup popup-login">
+        <div class="popup__container popup__container-login">
+            <button class="popup__close btn">
+              <i class="fa-solid fa-xmark"></i></button>
+            <h2>Авторизация</h2>
+            <form class="form" id="popup-form-login">
+                <input type="email" class="form__input" name="email" required="" placeholder="email">
+                <input type="password" class="form__input" name="password" placeholder="password">
+                <button type="submit" class="form__btn btn">Войти</button>
+            </form>
+        </div>
     </div>
 
 
