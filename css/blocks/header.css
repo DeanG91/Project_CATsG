@@ -1,8 +1,13 @@
 .header {
   box-shadow: 0 0 2px 0 var(--bg-secondary-color);
-  background-color: var(--bg-main-color);
+  background-color: var(--bg-header-color);
   padding-top: 20px;
   padding-bottom: 20px;
+  width: 100%;
+  max-width: 1320px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 12px 12px 0 0;
 }
 
 .header__container {

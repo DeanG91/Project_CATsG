@@ -24,15 +24,17 @@
 .card__name {
   font-size: 18px;
   font-weight: normal;
+  position: relative;
 }
 
-.card__name:hover:after {
+.card__name:hover::after {
+  position: absolute;
+  content: "\f31e";
   font: var(--fa-font-solid);
-  content: "\f00e";
   display: inline-block;
   -webkit-font-smoothing: antialiased;
-  position:  absolute;
   left: 100%;
+  top: 7%;
   margin-left: 5px;
 }
 

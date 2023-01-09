@@ -1,10 +1,19 @@
 :root {
     --bg-main-color: #f8f7f7;
+    --bg-main-white-color: #383838;
+    --bg-header-color: #383838;
+    --bg-dark-color: #383838;
+    --bg-header-logo-color: #fff;
     --bg-secondary-color: #191414;
+    --bg-secondary-white-color: #fff;
     --bg-overlay-color: rgba(25, 20, 20, 0.8);
+
     --text-main-color: #191414;
     --text-light-color: #f8f7f7;
+    --text-dark-color: #383838;
+    --text-white-color: #fff;
     --text-secondary-color: #7B8E98;
+
     --outline-color: #CFD8DC;
     --form-color: #ECEFF1;
     --accent-color: #405DE6;

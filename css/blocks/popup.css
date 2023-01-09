@@ -22,18 +22,30 @@
 
 .popup__container {
   max-width: 600px;
-  /* background-color: var(--form-color); */
+  background-color: var(--form-color);
   padding: 20px;
   position: relative;
   border-radius: 12px;
+}
+
+.popup__container-add{
   height: 400px;
   background: url("../../assets/images/cats-1.jpg") top/cover no-repeat;
+}
+
+.popup__container-login{
+  height: 190px;
+  background: url("../../assets/images/catvzl.jpg") 50% 100%/cover no-repeat;
 }
 
 .popup__close {
   position: absolute;
   top: 20px;
   right: 20px;
+}
+
+.btn__login{
+  background-color: var(--text-dark-color);
 }
 
 .popup__close_external {
