@@ -15,27 +15,29 @@
 - При нажатии на карточку с котом (на главной странице) отображается информация об этом коте. Можно реализовать как при помощи диалогового окна, так и при помощи отдельной страницы.
 Подсказка: чтобы отображать отдельную страницу с котом, сделайте ссылку на универсальную страницу с животным и добавьте туда параметр, как при отправке формы get-запросом (cat.html/?id=1). Затем, при помощи объекта location.href или location.search можно получить наш id и забрать информацию из базы данных по одному коту
 
----
-
+__________________________________
 Ссылки для fetch-запросов
 
 {db} - ваше уникальное имя. Советуем использовать nickname из github (строчные латинские буквы).
 
 {id} - порядковый номер кота в базе данных (число).
 
----
+__________________________________
 
 Описание API
 
+
 GET - получить информацию обо всех котах
 
-https://cats.petiteweb.dev/api/single/{db}/show/
+    https://cats.petiteweb.dev/api/single/{db}/show/
+
 
 GET - получить информацию об одном котике по id
-https://cats.petiteweb.dev/api/single/{db}/show/{id}
+
+     https://cats.petiteweb.dev/api/single/{db}/show/{id}
 
 POST - добавить нового кота (id, name - обязательно!)
-https://cats.petiteweb.dev/api/single/{db}/add/
+     https://cats.petiteweb.dev/api/single/{db}/add/
 Тело запроса может включать следующие поля:
 id (обязательное поле) — число
 age — число
@@ -46,9 +48,10 @@ favorite — логическое значение true или false
 image — строка. Ссылка на картинку
 
 PUT - изменить информацию о коте (запрещено менять id и name)
-https://cats.petiteweb.dev/api/single/{db}/update/{id}
 
+    https://cats.petiteweb.dev/api/single/{db}/update/{id}
 Тело запроса может включить все поля из предыдущего пункта, кроме id и name
 
 DELETE - удалить кота
-https://cats.petiteweb.dev/api/single/{db}/delete/{id}
+
+    https://cats.petiteweb.dev/api/single/{db}/delete/{id}
