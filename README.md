@@ -1,6 +1,6 @@
 # Project_CATsG
 
-[Live Github Page] (https://deang91.github.io/Project_CATsG/)
+[Live Github Page](https://deang91.github.io/Project_CATsG/)
 
 Требования:
 
